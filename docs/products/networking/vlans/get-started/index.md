@@ -9,9 +9,9 @@ tab_group_main:
 
 Vlans are created and implemented via three different methods when using the Linode Cloud Manager. These methods are as follows:
 
-- As part of the configuration when [Creating a New Linode]().
-- By creating a new [Configuration Profile]().
-- By editing a pre-existing configuration profile.
+- As part of the configuration when [Creating a New Linode](#creating-or-applying-a-vlan-when-creating-a-linode).
+- By creating a new [Configuration Profile](#creating-or-applying-a-vlan-when-creating-a-linode).
+- By editing a [Pre-Existing Configuration Profile](#adding-a-vlan-when-editing-a-configuration-profile).
 
 ## Creating or Applying a VLAN When Creating a Linode
 
@@ -77,6 +77,6 @@ When creating or applying a pre-existing vlan to a new Linode, the eth0 interfac
 
 1. Enter a Label for a new VLAN or select a valid pre-existing VLAN from the dropdown menu. If the field does not have any information entered in manually, then no VLAN will be configured. If any new information is entered in the Label field, then a VLAN will automatically be created and configured for the selected interface.
 
-1. Click on the `Edit Configuration` button to add the new VLAN.
+1. Click on the `Edit Configuration` button at the bottom of the page to add the new VLAN.
 
 1. Once the configuration profile has been updated, select the **Boot** button next to the edited configuration profile on the following page. This will reboot using the edited configuration profile and apply the new VLAN configuration to the Linode.
